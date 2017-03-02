@@ -1,0 +1,22 @@
+.navbar{
+  height: 100px;
+  background: orangered;
+}
+
+.floatbar{
+  display: flex;
+  height: 25px;
+  background: black;
+}
+
+.main-content{
+  height: 700px;
+  background: midnightblue;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.footer{
+  height: 100px;
+  background: maroon;
+}
