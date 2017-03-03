@@ -1,5 +1,9 @@
+body{
+  margin:0;
+}
+
 .header{
-  background:red;
+  background-color:red;
   height: 55px;
   width:1100px;
   margin:auto;
@@ -7,32 +11,40 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
+
 }
 .floatingbox{
 
   background:black;
   height: 25px;
   width: 75%;
+  maring-left: 10%;
+}
 
-
+.floatingbox:hover{
+  background-color: white;
 }
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin:auto;  
-    width:1000px;
-    height:820px;
-    background-color: blue;
+  background-color: blue;
+  height: 700px;
+  width:45%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
 
 }
 
 .flex-item {
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-    margin: 75px;
+
+  height: 100px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: -500px;
+  background-color: yellow;
+  list-style: none;*/
 
 }
 
